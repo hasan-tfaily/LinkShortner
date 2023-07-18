@@ -1,12 +1,11 @@
-import Image from "next/image";
-import { Navbar } from "./components/navbar";
-import { FirstSection } from "./components/firstSec";
+"use client";
+
+import { OnlyPage } from "./components/onlyPage";
 
 export default function Home() {
   return (
     <main className={`bg-white text-black`}>
-      <Navbar />
-      <FirstSection />
+      <OnlyPage />
     </main>
   );
 }
