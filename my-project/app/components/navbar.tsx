@@ -22,7 +22,9 @@ export const Navbar = ({}: NavbarProps) => {
       </div>
       <div className="grid grid-cols-2  ">
         <p className="my-auto hidden sm:block ">log In</p>
-        <p className="my-auto hidden sm:block whitespace-nowrap">sign up</p>
+        <p className="my-auto hidden sm:block whitespace-nowrap bg-blue-500 rounded-2xl text-white font-bold p-3">
+          sign up
+        </p>
       </div>
       {/* <div>
         <button
